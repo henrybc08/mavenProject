@@ -1,5 +1,3 @@
 language: node-js
 sudo: enabled
-install:
-  - npm install
 script: mvn clean compile package
